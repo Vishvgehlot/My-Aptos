@@ -79,7 +79,7 @@ To deploy the **Dynamic Staking Module**, follow these steps:
 ## License
 This project is open-source and available under the MIT License.
 
-##Contract Adresses
+## Contract Adresses
 transaction_hash: "0xdc19f561288b4e28aa7f5d136480890a31b0bfd3d2f49019296070d04b5a2727"
 ![Screenshot 2025-03-26 100945](https://github.com/user-attachments/assets/a7f0aa2d-64a0-4fb8-b773-41fe98b353da)
 
