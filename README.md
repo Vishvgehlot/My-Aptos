@@ -48,6 +48,29 @@ The vision of this module is to provide a **decentralized and automated staking 
 3. **Users stake tokens** using `stake_tokens()`.
 4. **Users claim rewards** using `claim_rewards()` after staking for a period.
 
+## Deployment
+To deploy the **Dynamic Staking Module**, follow these steps:
+
+1. **Install Move CLI** and set up the Aptos environment:
+   ```sh
+   aptos init
+   ```
+2. **Compile the contract**:
+   ```sh
+   move build
+   ```
+3. **Publish the module to the Aptos blockchain**:
+   ```sh
+   aptos move publish --profile default
+   ```
+4. **Initialize MintHolder**:
+   ```sh
+   aptos move run --function-id "<DEPLOYED_ADDRESS>::MyModule::initialize_mint_holder" --args <MINT_CAPABILITY>
+   ```
+5. **Interact with the contract**:
+   - Stake tokens: `stake_tokens()`
+   - Claim rewards: `claim_rewards()`
+
 ## Dependencies
 - **Move Language** – Smart contract development.
 - **Aptos Framework** – For handling coin transactions, timestamps, and signer authentication.
@@ -56,6 +79,8 @@ The vision of this module is to provide a **decentralized and automated staking 
 ## License
 This project is open-source and available under the MIT License.
 
----
-This document provides an overview of the **Dynamic Staking Module**, outlining its functionalities, vision, and future enhancements.
+##Contract Adresses
+transaction_hash: "0xdc19f561288b4e28aa7f5d136480890a31b0bfd3d2f49019296070d04b5a2727"
+![Screenshot 2025-03-26 100945](https://github.com/user-attachments/assets/a7f0aa2d-64a0-4fb8-b773-41fe98b353da)
 
+---
