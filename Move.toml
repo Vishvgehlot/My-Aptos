@@ -1,0 +1,16 @@
+[package]
+name = "Dynamic-staking-rewards-based-on-time"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x2176f1edfb361701427486aeb1e8425f65ce8264e0200c07570930ced16985e8"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
+ 
